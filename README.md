@@ -1,4 +1,4 @@
-# Batalha Naval - Java com Socket UDP
+# Batalha Naval
 
 ## Integrantes da Equipe
 
