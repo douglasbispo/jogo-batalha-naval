@@ -9,7 +9,7 @@
 
 ## Descrição do Jogo
 
-Batalha Naval é um jogo multiplayer desenvolvido em Java utilizando sockets UDP. O jogo suporta até 4 jogadores simultâneos e segue as regras clássicas do Batalha Naval, onde os jogadores tentam afundar os navios uns dos outros até que reste apenas um vencedor.
+Batalha Naval é um jogo multiplayer desenvolvido em Java utilizando socket UDP. O jogo suporta até 4 jogadores simultâneos e segue as regras clássicas do Batalha Naval, onde os jogadores tentam afundar os navios uns dos outros até que reste apenas um vencedor.
 
 O jogo inicia quando todos os jogadores aceitam participar e confirmação de prontidão. Cada jogador recebe um tabuleiro 10x10 com 5 navios posicionados aleatoriamente. Os jogadores se revezam para atacar os oponentes escolhendo uma linha e uma coluna. O jogo termina quando resta apenas um jogador com navios no tabuleiro.
 
