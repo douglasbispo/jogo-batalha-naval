@@ -28,9 +28,9 @@ javac Server.java Client.java
 java Server.java
 ~~~
 5. Para cada jogador (até 4), inicie um cliente em uma nova instância do terminal:
-
-java Cliente
-
+~~~Java
+java Client.java
+~~~
 ## Como Jogar
 
 1. O servidor será iniciado e os jogadores deverão rodar a classe Cliente.
@@ -69,5 +69,3 @@ java Cliente
     ~~~Java
       "Algum jogador optou por não jogar novamente, o servidor será encerrado".
     ~~~
-
-Divirta-se jogando Batalha Naval!
