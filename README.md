@@ -5,7 +5,7 @@
 * Douglas Bispo
 * Franceylton
 * Matheus Henrique
-* Ruan Victor
+* Juan Victor
 
 ## Descrição do Jogo
 
