@@ -152,7 +152,7 @@ public class Server {
 	        		
 	        for (Jogador jogador : batalhaNaval.jogadores) {
 	            if (jogador.getPortaOrigem() == portaOrigem) {
-	                if (pronto.getMensagem().equals("s")) {
+	                if (pronto.getMensagem().equalsIgnoreCase("s")) {
 	                    System.out.println(jogador.getNome() + " está pronto para REMATCH!");
 	                    byte[] sendResposta = Serializador
 	                            .serializar(new Mensagem(0, "\nAguardando outros jogadores confirmarem..."));
@@ -231,7 +231,7 @@ public class Server {
 
 		for (Jogador jogador : batalhaNaval.jogadores) {
 			if (jogador.getPortaOrigem() == portaOrigem) {
-				if (pronto.getMensagem().equals("s")) {
+				if (pronto.getMensagem().equalsIgnoreCase("s")) {
 					jogador.pronto = true;
 					System.out.println(jogador.getNome() + " está pronto!");
 					byte[] sendResposta = Serializador
